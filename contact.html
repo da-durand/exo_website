@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="test.css">
+    <title>Jeu de Rôle</title>
+</head>
+
+<body>
+    <header>
+        <h1>Jeu de Rôle</h1>
+        <nav>
+            <ul>
+                <li>
+                    <a href="test.html">Bienvenue</a>
+                </li>
+                <li>
+                    <a href="play.html">Comment jouer</a>
+                </li>
+                <li>
+                    <a href="contact.html">Contacter</a>
+                </li>
+            </ul>
+        </nav>
+        <img src="https://www.mtlblog.com/u/2018/08/21/1b50a766b6608b3ad510048335bd5f934d536919.jpg_1200x630.jpg"
+            alt="racoon" id="logo">
+    </header>
+    <main>
+        <h2>Me contacter</h2>
+        <form method="POST" action="">
+            <div id="names">
+                <label for="first_name_input">Prénom</label>
+                <input type="text" name="first_name" id="first_name_input" maxlength="10" required="required">
+                <label for="last_name_input">Nom</label>
+                <input type="text" name="last-name" id="last_name_input" maxlength="15" required="required">
+            </div>
+            <div id="rest">
+                <h4>Genre</h4>
+                <label for="sex_input">Homme</label>
+                <input type="radio" name="sex" value="men" id="sex_input">
+                <label for="sex_input">Femme</label>
+                <input type="radio" name="sex" value="women" id="sex_input">
+                <label for="sex_input">Autre</label>
+                <input type="radio" name="sex" value="other" id="sex_input">
+                <br>
+                <label for="mail_input">Email</label>
+                <input type="mail" name="mail" id="mail_input" required="required">
+                <br>
+                <div>
+                    <label for="message_input" id="message_label">Message</label>
+                </div>
+                <textarea name="message" id="message_input" cols="30" rows="10" required="required"></textarea>
+            </div>
+            <div id="submit">
+                <input type="submit" name="submit" id="submit_input">
+            </div>
+        </form>
+    </main>
+    <footer>
+        <p>
+            Copyright @ 2019
+        </p>
+
+    </footer>
+</body>
+
+</html>

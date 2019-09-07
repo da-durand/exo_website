@@ -1,0 +1,80 @@
+header * {
+    display: inline-block ;
+    vertical-align: middle ;
+}
+
+body {
+    background-color: gray ;
+}
+
+header {
+    padding-left: 20% ;
+    padding-right: 20% ;
+    margin-bottom: 3% ;
+    background-color: black ;
+}
+
+h1 {
+    margin-right: 10% ;
+    color: rgba(205, 212, 6, 0.739) ;
+}
+
+h2 {
+    margin-top: 1em ;
+}
+
+a {
+    margin-left: 1em ;
+    margin-right: 1em ;
+    background-color: lightgoldenrodyellow ;
+    border-radius: 10px ;
+    padding: 0.5em ;
+    text-decoration: none ;
+}
+
+main {
+    margin-left: 25%;
+    margin-right: 25% ;
+    background-image: url("http://www.alchymere.com/wp-content/uploads/2016/11/fond-de-page-Reve-E-1024x960.png");
+    background-repeat: repeat-y ;
+    background-position: center ;
+    background-size: auto ;
+    padding: 0.5em ;
+}
+
+p {
+    margin-top: 2em ;
+}
+
+#logo {
+    height: 5em ;
+    margin-left: 15% ;
+}
+
+footer {
+    padding-left: 20% ;
+    margin-bottom: 1em ;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+     margin: 0 ;
+     padding: 0 ;
+ }
+
+
+ /* FORMULAIRE */
+
+ form, h4 {
+     margin-top: 0.5em ;
+ }
+
+ textarea {
+     width: 100% ;
+ }
+
+ #submit {
+     padding-left: 93% ;
+ }
